@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: sans-serif
 }
+
 .navbar{
     display: flex;
     align-items: center;
@@ -102,49 +103,6 @@ h4{
     }
     nav ul li{
         margin-right: 0; 
-    }
-     .slider{
-        height: 210px;
-        width: auto;
-    }
-    .slide img{
-        height: 210px;
-        width: auto;
-    }
-    .slides{
-        height: 210px;
-    }
-    .navigation-manual{
-        position: absolute;
-        width: 440px;
-        margin-top: -30px;
-        display: flex;
-        justify-content: center;
-    }
-    .navigation-auto{
-        position: absolute;
-        display: flex;
-        width: 400px;
-        justify-content: center;
-        margin-top: 180px;
-        padding-left: 40px;
-    }
-    .opening h2{
-        font-size: 30px;
-        margin-top: 10%;
-        margin-bottom: 10%;
-    }
-    .feat h2{
-        font-size: 35px;
-        margin-top: 10%;
-        margin-bottom: 10%;
-    }
-    .navbar nav ul li{
-        font-size: 15px;
-        margin-left: 10px;
-    }
-    #foot p{
-        font-size: 12px;
     }
 }
 footer{
@@ -304,7 +262,8 @@ footer ul li i{
     background: rgb(235, 232, 189);
 }
 
-@media(max-width:700px){
+@media(max-width:650px){
+
     .slider{
         height: 210px;
         width: auto;
@@ -316,9 +275,10 @@ footer ul li i{
     .slides{
         height: 210px;
     }
+
     .navigation-manual{
         position: absolute;
-        width: 440px;
+        width: 200px;
         margin-top: -30px;
         display: flex;
         justify-content: center;
@@ -326,10 +286,10 @@ footer ul li i{
     .navigation-auto{
         position: absolute;
         display: flex;
-        width: 400px;
+        width: 200px;
         justify-content: center;
         margin-top: 180px;
-        padding-left: 40px;
+
     }
     .opening h2{
         font-size: 30px;
@@ -348,4 +308,13 @@ footer ul li i{
     #foot p{
         font-size: 12px;
     }
+    .gotopbtn{
+        position: fixed;
+        width: 40px;
+        height: 40px;
+        bottom: 40px;
+        right: 20px;
+        text-decoration: none;
+        text-align: center;
+}
 }
